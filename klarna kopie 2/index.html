@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klarna: hoofdpagina</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="images/svg+xml" href="images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <ul>
+                <li>
+                    <button id="sluitmenu" type="button">X</button>
+                </li>
+                <li><a href="leeg.html">Shop<span>></span></a></li>
+                <li><a href="leeg.html">Financiën<span>></span></a></li>
+                <li><a href="leeg.html">Wat is Klarna<span>></span></a></li>
+                <li><a href="klantenservice.html">Help<span>></span></a></li>
+            </ul>
+            <button type="button"><svg id="hamburger-icon" width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 18L20 18" stroke="#FFFF" stroke-width="2" stroke-linecap="round" />
+                    <path d="M4 12L20 12" stroke="#FFF" stroke-width="2" stroke-linecap="round" />
+                    <path d="M4 6L20 6" stroke="#FFFF" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </button>
+            <img class="logo" src="img/klarnalogo.png" alt="Klarna logo">
+            <a href="leeg.html" class="login">Login</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <img class="img" src="img/startfoto.png" alt="Klarna app op mobiel">
+            <label>
+                <input type="radio" name="theme" value="light">
+            </label>
+            <label>
+                <input type="radio" name="theme" value="dark">
+            </label>
+            <h1>30 dagen om te betalen, rente-vrij</h1>
+            <p>Met onze in-app winkelbrowser kun je naar elk merk zoeken en al je favorieten later betalen.</p>
+        </section>
+
+        <button type="button" class="knop" onclick="text(); playAudio();">Download de app</button>
+
+        <audio id="mijnAudio">
+            <source src="audio/advertising-logo-199582.mp3" type="audio/mp3">
+        </audio>
+
+
+        <div id="text">
+            <button type="button" class="afsluiten" onclick="textWeg()">X</button>
+            <h3>Het is gelukt!</h3>
+            <p>De app is gedownload <br>🎉</p>
+        </div>
+
+        <section class="spotlight1">
+            <h2>Winkels in de spotlight</h2>
+        </section>
+
+        <section class="spotlight">
+
+            <article>
+                <img src="img/philipsrecl.png" alt="Afbeelding van Philips">
+                <p>Philips</p>
+            </article>
+
+            <article>
+                <img src="img/under-armour.png" alt="Afbeelding van Under Armour">
+                <p>Under Armour</p>
+            </article>
+
+            <article>
+                <img src="img/omoda.png" alt="Afbeelding van Omoda">
+                <p>Omoda</p>
+            </article>
+
+            <article>
+                <img src="img/gstarraw.png" alt="Afbeelding van G-Star Raw">
+                <p>G-Star RAW</p>
+            </article>
+
+            <article>
+                <img src="img/nike.png" alt="Afbeelding van Nike">
+                <p>Nike</p>
+            </article>
+
+            <article>
+                <img src="img/nelson.png" alt="Afbeelding van Nelson Shoes">
+                <p>Nelson shoes</p>
+            </article>
+
+            <article>
+                <img src="img/vanharen.png" alt="Afbeelding vanHaren">
+                <p>vanHaren</p>
+            </article>
+
+            <article>
+                <img src="img/trendyol.png" alt="Afbeelding van Trendyol">
+                <p>Trendyol</p>
+            </article>
+
+            <article>
+                <img src="img/fitbit.png" alt="Afbeelding van Fitbit">
+                <p>fitbit</p>
+            </article>
+
+            <article>
+                <img src="img/shoeby.png" alt="Afbeelding van Shoeby">
+                <p>Shoeby</p>
+            </article>
+
+            <article>
+                <img src="img/vandenassem.png" alt="Afbeelding van van den Assem">
+                <p>van den Assem</p>
+            </article>
+
+            <article>
+                <img src="img/hunkemoller.png" alt="Afbeelding van Hunkemoller">
+                <p>Hunkemoller</p>
+            </article>
+
+            <article>
+                <img src="img/otrium.png" alt="Afbeelding van Otrium">
+                <p>Otrium</p>
+            </article>
+
+            <article>
+                <img src="img/samsung.png" alt="Afbeelding van Samsung">
+                <p>Samsung</p>
+            </article>
+
+            <article>
+                <img src="img/laredoute.png" alt="Afbeelding van La Redoute">
+                <p>La Redoute</p>
+            </article>
+
+            <article>
+                <img src="img/calvinklein.png" alt="Afbeelding van Calvin Klein">
+                <p>Calvin Klein</p>
+            </article>
+
+            <article>
+                <img src="img/tommyhilfiger.png" alt="Afbeelding van Tommy Hilfiger">
+                <p>Tommy Hilfiger</p>
+            </article>
+
+            <article>
+                <img src="img/bash.png" alt="Afbeelding van Ba&sh">
+                <p>Ba&sh</p>
+            </article>
+        </section>
+
+        <section class="payment">
+            <h2>Koop met Klarna</h2>
+            <p> Shop zoals shoppen hoort te zijn. Moeiteloos, veilig en leuk.</p>
+            <img src="img/pay.png" alt="payment afbeelding">
+        </section>
+
+
+
+        <section class="payment2">
+            <article>
+                <h3>Koop nu</h3>
+                <p>Koop vandaag en betaal later. Geen rente. Geen extra kosten. Geen moeite.</p>
+                <img src="img/pay2.png" alt="payment afbeelding">
+            </article>
+
+            <article>
+                <h3>Betaal later</h3>
+                <p>Tijdens het afrekenen bij je favoriete webwinkel vul je eenvoudige persoonsgegevens in die je altijd
+                    in
+                    je geheugen hebt en kies je voor 'Betaal later' om je bestelling af te rekenen.</p>
+                <img src="img/pay3.png" alt="payment afbeelding">
+            </article>
+
+            <article>
+                <h3>State-of-the-art app</h3>
+                <p>Je shopbeleving wordt naar nog hogere sferen getild door onze app. De app laat het niet gebeuren dat
+                    jij
+                    een betaling mist. Als er iets mis is met de aankoop, kan je het betaalproces makkelijk pauzeren in
+                    de
+                    tijd dat wij het tot op de bodem uitzoeken.</p>
+            </article>
+        </section>
+
+        <section class="gold">
+            <article>
+                <img src="img/goldphone.png" alt="afbeelding van de Klarna app">
+                <h2>De Klarna app</h2>
+                <h3>Al je aankopen op één plek</h3>
+                <p>Hier zie je duidelijk wat je hebt gekocht en wanneer je moet betalen. Compleet met handige reminders
+                    zodat je niets vergeet.</p>
+            </article>
+
+            <article>
+                <ul>
+                    <li>Manage betalingen, volg je uitgaven en meld retouren aan.</li>
+                    <li>Hou je must-haves in de gaten door ze te bewaren in collecties.</li>
+                    <li>Ons klantenserviceteam staat 24/7 voor je klaar.</li>
+                </ul>
+            </article>
+        </section>
+
+
+        <section class="coupons">
+            <a href="leeg.html">Download de app</a>
+            <h2>Alle kortingen en coupons</h2>
+            <p>De beste online kortingen en coupons, inclusief Klarna-exclusief, dagelijks bijgewerkt.</p>
+        </section>
+
+        <!-- De hele onderstaande section bestaat niet meer op de Klarna website -->
+        <section class="coupons2">
+
+            <article>
+                <img src="img/pearle.png" alt="Coupon voor Pearle Opticiens">
+                <h3>Pearle Opticiens</h3>
+                <p>20% korting op <br>
+                    zonnebrillen
+                </p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                        height="24px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                        <g>
+                            <path d="M8,60c0,2.211,1.789,4,4,4h40c2.211,0,4-1.789,4-4v-2H8V60z" />
+                            <path d="M36,36c-0.553,0-1.053,0.224-1.414,0.586l-1.879,1.871c-0.391,0.391-1.023,0.391-1.414,0l-1.879-1.871
+                       C29.053,36.224,28.553,36,28,36c-1.104,0-2,0.896-2,2c0,0.553,0.481,1.076,0.844,1.438L32,44.594l5.156-5.156
+                       C37.519,39.076,38,38.553,38,38C38,36.896,37.104,36,36,36z" />
+                            <path d="M54,20H44v-8c0-6.627-5.373-12-12-12S20,5.373,20,12v8H10c-1.105,0-2,0.895-2,2v34h48V22
+                       C56,20.895,55.105,20,54,20z M38.547,40.875l-5.84,5.841c-0.391,0.391-1.023,0.391-1.414,0l-5.855-5.856
+                       C24.713,40.136,24,39.104,24,38c0-2.209,1.791-4,4-4c1.104,0,2.104,0.448,2.828,1.172L32,36.336l1.172-1.164
+                       C33.896,34.448,34.896,34,36,34c2.209,0,4,1.791,4,4C40,39.104,39.271,40.151,38.547,40.875z M26,20v-8c0-3.313,2.687-6,6-6
+                       s6,2.687,6,6v8H26z M42,23c0,0.553-0.447,1-1,1s-1-0.447-1-1V12c0-4.418-3.582-8-8-8s-8,3.582-8,8v11c0,0.553-0.447,1-1,1
+                       s-1-0.447-1-1V12c0-5.522,4.478-10,10-10s10,4.478,10,10V23z" />
+                        </g>
+                    </svg>Promotiecode</p>
+            </article>
+
+            <article class="cheap">
+                <img src="img/cheaptickets1.png" alt="Coupon voor CheapTickets.nl">
+                <h3>CheapTickets.nl</h3>
+                <p>€150 korting</p>
+                <p><svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="20px" height="20px" viewBox="0 0 64 64" enable-background="new 0 0 64 64"
+                        xml:space="preserve">
+                        <g>
+                            <path d="M8,60c0,2.211,1.789,4,4,4h40c2.211,0,4-1.789,4-4v-2H8V60z" />
+                            <path d="M36,36c-0.553,0-1.053,0.224-1.414,0.586l-1.879,1.871c-0.391,0.391-1.023,0.391-1.414,0l-1.879-1.871
+                       C29.053,36.224,28.553,36,28,36c-1.104,0-2,0.896-2,2c0,0.553,0.481,1.076,0.844,1.438L32,44.594l5.156-5.156
+                       C37.519,39.076,38,38.553,38,38C38,36.896,37.104,36,36,36z" />
+                            <path d="M54,20H44v-8c0-6.627-5.373-12-12-12S20,5.373,20,12v8H10c-1.105,0-2,0.895-2,2v34h48V22
+                       C56,20.895,55.105,20,54,20z M38.547,40.875l-5.84,5.841c-0.391,0.391-1.023,0.391-1.414,0l-5.855-5.856
+                       C24.713,40.136,24,39.104,24,38c0-2.209,1.791-4,4-4c1.104,0,2.104,0.448,2.828,1.172L32,36.336l1.172-1.164
+                       C33.896,34.448,34.896,34,36,34c2.209,0,4,1.791,4,4C40,39.104,39.271,40.151,38.547,40.875z M26,20v-8c0-3.313,2.687-6,6-6
+                       s6,2.687,6,6v8H26z M42,23c0,0.553-0.447,1-1,1s-1-0.447-1-1V12c0-4.418-3.582-8-8-8s-8,3.582-8,8v11c0,0.553-0.447,1-1,1
+                       s-1-0.447-1-1V12c0-5.522,4.478-10,10-10s10,4.478,10,10V23z" />
+                        </g>
+                    </svg>Promotiecode</p>
+            </article>
+
+            <article class="g">
+                <img src="img/cheaptickets2.png" alt="Coupon voor CheapTickets.nl">
+                <h3>G-Star RAW</h3>
+                <p>Terug naar school</p>
+                <p><svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="24px" height="24px" viewBox="0 0 64 64" enable-background="new 0 0 64 64"
+                        xml:space="preserve">
+                        <g>
+                            <path d="M8,60c0,2.211,1.789,4,4,4h40c2.211,0,4-1.789,4-4v-2H8V60z" />
+                            <path d="M36,36c-0.553,0-1.053,0.224-1.414,0.586l-1.879,1.871c-0.391,0.391-1.023,0.391-1.414,0l-1.879-1.871
+                       C29.053,36.224,28.553,36,28,36c-1.104,0-2,0.896-2,2c0,0.553,0.481,1.076,0.844,1.438L32,44.594l5.156-5.156
+                       C37.519,39.076,38,38.553,38,38C38,36.896,37.104,36,36,36z" />
+                            <path d="M54,20H44v-8c0-6.627-5.373-12-12-12S20,5.373,20,12v8H10c-1.105,0-2,0.895-2,2v34h48V22
+                       C56,20.895,55.105,20,54,20z M38.547,40.875l-5.84,5.841c-0.391,0.391-1.023,0.391-1.414,0l-5.855-5.856
+                       C24.713,40.136,24,39.104,24,38c0-2.209,1.791-4,4-4c1.104,0,2.104,0.448,2.828,1.172L32,36.336l1.172-1.164
+                       C33.896,34.448,34.896,34,36,34c2.209,0,4,1.791,4,4C40,39.104,39.271,40.151,38.547,40.875z M26,20v-8c0-3.313,2.687-6,6-6
+                       s6,2.687,6,6v8H26z M42,23c0,0.553-0.447,1-1,1s-1-0.447-1-1V12c0-4.418-3.582-8-8-8s-8,3.582-8,8v11c0,0.553-0.447,1-1,1
+                       s-1-0.447-1-1V12c0-5.522,4.478-10,10-10s10,4.478,10,10V23z" />
+                        </g>
+                    </svg>Promotiecode</p>
+            </article>
+
+            <article class="cor">
+                <img src="img/corendon.png" alt="Coupon voor Corendon">
+                <h3>Corendon</h3>
+                <p>Naar de zon met Corendon</p>
+                <p><svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="19px" height="19px" viewBox="0 0 62 62" enable-background="new 0 0 64 64"
+                        xml:space="preserve">
+                        <g>
+                            <path d="M8,60c0,2.211,1.789,4,4,4h40c2.211,0,4-1.789,4-4v-2H8V60z" />
+                            <path d="M36,36c-0.553,0-1.053,0.224-1.414,0.586l-1.879,1.871c-0.391,0.391-1.023,0.391-1.414,0l-1.879-1.871
+                       C29.053,36.224,28.553,36,28,36c-1.104,0-2,0.896-2,2c0,0.553,0.481,1.076,0.844,1.438L32,44.594l5.156-5.156
+                       C37.519,39.076,38,38.553,38,38C38,36.896,37.104,36,36,36z" />
+                            <path d="M54,20H44v-8c0-6.627-5.373-12-12-12S20,5.373,20,12v8H10c-1.105,0-2,0.895-2,2v34h48V22
+                       C56,20.895,55.105,20,54,20z M38.547,40.875l-5.84,5.841c-0.391,0.391-1.023,0.391-1.414,0l-5.855-5.856
+                       C24.713,40.136,24,39.104,24,38c0-2.209,1.791-4,4-4c1.104,0,2.104,0.448,2.828,1.172L32,36.336l1.172-1.164
+                       C33.896,34.448,34.896,34,36,34c2.209,0,4,1.791,4,4C40,39.104,39.271,40.151,38.547,40.875z M26,20v-8c0-3.313,2.687-6,6-6
+                       s6,2.687,6,6v8H26z M42,23c0,0.553-0.447,1-1,1s-1-0.447-1-1V12c0-4.418-3.582-8-8-8s-8,3.582-8,8v11c0,0.553-0.447,1-1,1
+                       s-1-0.447-1-1V12c0-5.522,4.478-10,10-10s10,4.478,10,10V23z" />
+                        </g>
+                    </svg>Promotiecode</p>
+            </article>
+
+        </section>
+
+        <section class="winkels">
+            <h2>Klarna winkels</h2>
+            <section class="draai">🛍️</section>
+
+            <p>Hier komen miljoenen shoppers en shops samen. Shoppen is smoother dan ooit.</p>
+            <img src="img/bestseller.png" alt="logo Bestseller">
+            <img src="img/booking.png" alt="logo Booking.com">
+            <img src="img/fonq.png" alt="logo Fonq">
+            <img src="img/gamma.png" alt="logo Gamma">
+            <img src="img/hunkemollerlogo.png" alt="logo Hunkemoller">
+            <img src="img/mediamarkt.png" alt="logo Mediamarkt">
+            <img src="img/omodalogo.png" alt="logo Omoda">
+            <img src="img/philips.png" alt="logo Philips">
+            <img src="img/samsunglogo.png" alt="logo Samsung">
+            <img src="img/tommylogo.png" alt="logo Tommy Hilfiger">
+            <img src="img/vidaxl.png" alt="logo Vida XL">
+
+            <article id="pijl">
+                <h3>Bekijk alle winkels</h3>
+                <a href="leeg.html"><svg fill="#000000" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve">
+                        <path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                   s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                   c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
+                    </svg></a>
+            </article>
+        </section>
+
+        <section class="betalen">
+            <h2>Klarna geeft je de beste opties om te betalen</h2>
+            <p>Je betaalt wat je wil, wanneer je wil.</p>
+        </section>
+
+        <section class="nu">
+            <h3>Betaal nu</h3>
+            <p>Ben je zeker van je aankoop? Betaal gelijk. Klarna rekent hiervoor geen extra kosten. Je kan met één klik
+                betalen, of met iDEAL.</p>
+        </section>
+
+        <section class="later">
+            <h3>Betaal later</h3>
+            <p>Koop vandaag, en geniet direct na bezorging alvast met volle teugen van je aankoop. Je kan tot en met 14
+                (of
+                30) dagen na je bestelling genieten voordat je betaalt. Betalen doe je online of in de app natuurlijk.
+                Met
+                één klik, via iDEAL - alles kan!</p>
+        </section>
+
+        <section class="coupons">
+            <h2>Over Klarna</h2>
+            <p>Ons ultieme doel is om beste shopbeleving van de wereld te creëren. Ons uitgangspunt is dat betalingen
+                meer
+                moeten zijn dan een transactie. Daarom zijn onze betaalmogelijkheden eropuit om jou meer ontspanning,
+                tijd
+                en controle te geven, zodat jij op andere dingen kan focussen.</p>
+        </section>
+
+        <section class="over">
+            <h2>85m</h2>
+            <p>85 miljoen shoppers maken gebruik van Klarna. De dagelijkse miljoen transacties illustreren de waarde die
+                consumenten aan onze betaalmogelijkheden hechten.</p>
+            <h2>450K+</h2>
+            <p>Wereldwijd werken we samen met 450+ duizend webwinkels. Of het nu grote of kleine shops zijn, merken
+                kiezen
+                voor een samenwerking met Klarna om een moeiteloze shopbeleving te bieden aan hun klanten.</p>
+            <h2>18jr</h2>
+            <p>Al 18 jaar maken we betalingen mogelijk. Altijd met dezelfde filosofie in ons achterhoofd - de smoothste
+                shopbeleving van de wereld creëren.</p>
+        </section>
+
+        <section class="verkopen">
+            <h2>Heb jij een winkel en wil je verkopen met Klarna?</h2>
+            <p><a href="leeg.html"> Lees meer</a></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="img/klarnalogo.png" alt="Klarna logo">
+        <h2>Klarna</h2>
+        <ul>
+            <li>Over ons</li>
+            <li>Careers</li>
+            <li>Legal</li>
+            <li>Pers</li>
+            <li>Privacy en veiligheid</li>
+            <li>Duurzaamheid</li>
+            <li>Gedragscode BNPL</li>
+            <li>Wikipink</li>
+            <li>Klant</li>
+            <li>Zakelijk</li>
+        </ul>
+
+        <h3>Klant</h3>
+        <h3>Zakelijk</h3>
+
+        <article id="Pijl">
+            <img src="img/nlvlag.png" alt="Nederlandse vlag">
+            <p>Nederland</p>
+            <svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve">
+                <path d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+	s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+	c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
+            </svg>
+        </article>
+
+
+        <section class="fb">
+            <img src="img/fb.svg" alt="link naar Facebook">
+            <img src="img/in.svg" alt="Link naar Linkedin">
+            <img src="img/twit.svg" alt="Link naar Twitter">
+            <img src="img/inst.png" alt="Link naar Instagram">
+        </section>
+
+        <p>Copyright © 2005-2024 Klarna Bank AB (publ). Headquarters: Stockholm, Sweden. All rights reserved. Klarna
+            Bank AB (publ). Sveavägen 46, 111 34 Stockholm. Organization number: 556737-0431</p>
+        <a href="leeg.html">Coockies</a>
+        <a href="leeg.html">Site-overzicht</a>
+        <a href="leeg.html">Klarna.com</a>
+
+    </footer>
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
